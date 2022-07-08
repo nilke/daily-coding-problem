@@ -1,5 +1,5 @@
 [package]
-name = "daily-coding-problem"
+name = "problem_001"
 version = "0.1.0"
 edition = "2021"
 
