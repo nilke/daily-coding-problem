@@ -5,7 +5,6 @@
 // Follow-up: what if you can't use division?
 
 fn uber_array_modifier_nested_loop(int_array: Vec<i32>) -> Vec<i32> {
-
     let mut output_array: Vec<i32> = Vec::new();
 
     for (outer_index, _) in int_array.iter().enumerate() {
@@ -17,23 +16,8 @@ fn uber_array_modifier_nested_loop(int_array: Vec<i32>) -> Vec<i32> {
         }
         output_array.push(summation);
     }
-
     return output_array;
-    
 }
-
-// fn uber_array_modifier_division(int_array: Vec<i32>) -> Vec<i32> {
-
-//     let output_array: Vec<i32> = Vec::new();
-
-//     for number in int_array.iter() {
-
-
-//     }
-
-//     return output_array;
-    
-// }
 
 fn main() {
     let int_array: Vec<i32> = vec![1, 2, 3, 4, 5];
